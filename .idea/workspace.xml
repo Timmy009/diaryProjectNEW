@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d212462c-6cc5-4cff-b536-b98459d4ce82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/request/ChangePasswordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/request/CreateEntryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/request/UpdateEntryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/response/CreateEntryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dtos/response/RegisterUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/DiaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/respositories/mocks/DiaryDuplicateRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/respositories/mocks/DiaryMockRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/services/DiaryServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/services/DiaryServiceImplTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid16777" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid17019" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diaryProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/diaryProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dtos/ChangePasswordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dtos/CreateEntryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dtos/CreateEntryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dtos/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dtos/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dtos/UpdateEntryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/model/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/model/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/respositories/DiaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/respositories/DiaryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/respositories/DiaryRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/respositories/EntryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/respositories/EntryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/respositories/EntryRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/respositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/respositories/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/DiaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/DiaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/DiaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/DiaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/EntryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/EntryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/EntryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/EntryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Mappers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Mappers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/respositories/DiaryRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/respositories/DiaryRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/respositories/EntryRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/respositories/EntryRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/respositories/UserRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/respositories/UserRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/EntryServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/EntryServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/UserServiceImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RqBta7WnytvM0FdDLsQJhbCyZb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/diaryProject/test/services&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/diaryProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8283b0a98f6f66bb44f54f89e41637a6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/data/models" />
+      <recent name="$PROJECT_DIR$/src/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="respositories" />
+      <recent name="data" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="services" />
+      <recent name="data.respositories" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="data.respositories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="DiaryServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shitaToFast" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.DiaryServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiaryServiceImplTest.changePasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shitaToFast" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.DiaryServiceImplTest" />
+      <option name="METHOD_NAME" value="changePasswordTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiaryServiceImplTest.createDiaryTAndDuplicateUserCannotRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shitaToFast" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.DiaryServiceImplTest" />
+      <option name="METHOD_NAME" value="createDiaryTAndDuplicateUserCannotRegisterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiaryServiceImplTest.createDiaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shitaToFast" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.DiaryServiceImplTest" />
+      <option name="METHOD_NAME" value="createDiaryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shitaToFast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.DiaryServiceImplTest.changePasswordTest" />
+        <item itemvalue="JUnit.DiaryServiceImplTest" />
+        <item itemvalue="JUnit.DiaryServiceImplTest.createDiaryTAndDuplicateUserCannotRegisterTest" />
+        <item itemvalue="JUnit.DiaryServiceImplTest.createDiaryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d212462c-6cc5-4cff-b536-b98459d4ce82" name="Changes" comment="" />
+      <created>1687967950927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687967950927</updated>
+      <workItem from="1687967953876" duration="18614000" />
+      <workItem from="1688896109841" duration="1915000" />
+      <workItem from="1688910982134" duration="11588000" />
+      <workItem from="1688943614628" duration="598000" />
+      <workItem from="1688981469902" duration="4551000" />
+      <workItem from="1689053129130" duration="1222000" />
+      <workItem from="1689079365224" duration="598000" />
+      <workItem from="1689093384696" duration="1271000" />
+      <workItem from="1689114704718" duration="4789000" />
+      <workItem from="1689167541390" duration="2758000" />
+      <workItem from="1689229793874" duration="4276000" />
+      <workItem from="1689237664111" duration="4285000" />
+      <workItem from="1689246760726" duration="300000" />
+      <workItem from="1689327220217" duration="711000" />
+      <workItem from="1689431125857" duration="599000" />
+      <workItem from="1689432914032" duration="647000" />
+      <workItem from="1690031965181" duration="14635000" />
+      <workItem from="1690135398244" duration="2364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
