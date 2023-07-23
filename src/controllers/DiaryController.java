@@ -18,8 +18,7 @@ public class DiaryController {
 
     @PostMapping("/register")
     public RegisterUserResponse registerUser (@RequestBody RegisterRequest registerRequest) {
-        RegisterUserResponse response = diaryService.register(registerRequest);
-        return new RegisterUserResponse(response, HttpStatus.CREATED);
+        return diaryService.register(registerRequest);
     }
 
     @GetMapping("/register1")
